@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Vue email list</title>
+</head>
+<body>
+
+   <div id="app">
+      <h2>Lista email:</h2>
+      <ul v-if="emailList.length === emailNumber">
+         <li v-for="el in emailList">{{ el }}</li>
+      </ul>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" ></script>
+   <script src="app.js"></script>
+</body>
+</html>

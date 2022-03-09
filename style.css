@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+
+
+#app {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+h2 {
+    border: 12px solid darkgreen;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: lightseagreen;
+    margin-top: 15rem;
+}
+
+ul{
+    border: 12px solid darkgreen;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: lightseagreen;
+    margin-top: 15rem;
+}
+
+li{
+    font-size: larger;
+    list-style: none;
+}
